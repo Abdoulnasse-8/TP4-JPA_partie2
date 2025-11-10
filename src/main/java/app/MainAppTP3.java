@@ -12,9 +12,9 @@ public class MainAppTP3 {
 
         em.getTransaction().begin();
 
-        Publisher p1 = new Publisher("O'Reilly");
-        Author a1 = new Author("Martin Fowler");
-        Author a2 = new Author("Joshua Bloch");
+        Publisher p1 = new Publisher("Mohamed");
+        Author a1 = new Author("Nasser");
+        Author a2 = new Author("Aymane");
 
         em.persist(p1);
         em.persist(a1);
