@@ -33,7 +33,7 @@ public class MainAppPartie2 {
         // ---  Supprimer un livre ---
         em.getTransaction().begin();
         System.out.println("\n===  Suppression d'un livre (id=1) ===");
-        Book toDelete = em.find(Book.class, 2L);
+        Book toDelete = em.find(Book.class, 3L);
         if (toDelete != null) {
             em.remove(toDelete);
             System.out.println("🗑 Livre supprimé : " + toDelete.getTitle());

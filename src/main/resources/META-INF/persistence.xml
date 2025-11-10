@@ -6,6 +6,10 @@
         <class>entities.Category</class>
         <class>entities.Book</class>
         <class>entities.Review</class>
+        <class>entities.TP3.Person</class>
+        <class>entities.TP3.Author</class>
+        <class>entities.TP3.Publisher</class>
+
 
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_tp4"/>
